@@ -1,0 +1,200 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, img {margin:0px; padding:0px; }
+
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    background: #FFFFFE;  }
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#logo {
+    background: url(images2/eca_img1.jpg) no-repeat;
+    padding-left: 50px;
+    height: 115px;
+    width: 220px;
+    margin-top: 20px;
+    float: left;
+  
+    }
+
+#logo h1 {
+    text-indent: -9999px;
+        }
+
+#header {
+    padding-top: -5px; 
+}
+
+#tagline {
+    float: left;
+    padding-top: 25px; 
+    width: 300px;
+    /*margin-top: -110px;
+    margin-right: 300px;*/
+}
+
+#tagline h3 {font-size: 30px; font-family: Times; color: #FA427A; }
+
+ul#menu {
+    list-style: none; /*removes bullet points*/
+    padding-top: -20px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    text-indent: -90px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    text-align: center;
+    background-color: #F30026;
+    height: 5px;
+    
+}
+
+ul#menu li a {
+    float: left;
+    font-size: 25px;
+    color: #F6F4F0;
+    text-decoration: none; 
+    width: 100%;
+    padding-left: 20px;
+    margin-top: -48px;
+    margin-left: 70px;
+    
+}
+
+ul#menu li {
+    float: left;
+    padding-right: 100px;
+    padding-top: 50px;
+    width: 20px; 
+}
+#menu a:hover{
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#content {
+    background-color: #F30026;
+    width: 1000px;
+    float: right;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #F30026;
+    margin-left: 100px;
+    margin-right: -25px;
+    padding: 20px;
+    margin-top: -13px;
+}
+
+#sidebar{
+    float: right;
+    margin-left: 55px;
+    margin-top: -15px;
+    /*background: #d4d6d3;
+    border: 1px solid #BEBDBD; */
+    padding: 15px 15px 30px 15px;  
+    width: 313px;
+    padding-top: 30px;
+}
+
+#sidebar h2{
+    color: #000000;
+    width: 450px;
+    margin-left: -37px;
+}
+
+#sidebar p{
+    color: #F30026;
+    width: 450px;
+    margin-left: -125px;
+    
+}
+
+#footer {
+    font-size: 15px;
+    color: #F30026; 
+    margin-top: 1050px;
+  /* background: url(images2/stripe2.jpg) repeat-x;
+   background-position: bottom;
+   background-position-y: 160px;
+   padding-bottom: 120px; */
+ 
+}
+
+#footer h2 {
+   margin-top: -100px;
+   color: #000000;
+}
+
+#footer p{
+    color: #F30026;
+}
+
+
+
+#img2{
+  margin-left: 60px;
+  padding-left: 50px;
+  padding-right: 50px;  
+}
+#img1{
+}
+
+#contact{
+    margin-bottom: 50px;
+    margin-left: -25px;
+    margin-right: -25px;
+    list-style: none; 
+    background-color: #F30026;
+}
+#contact h2{
+      margin-top: -1053px;
+      padding-top: 20px;
+    color: white;
+    margin-left: 50px;
+}
+
+#contact p{
+    color: #F30026;
+    width: 750px;
+    font-size: 15px;
+    }
+
+#contact li{
+        margin-left: 50px;
+        background-color: #F30026;
+        color: white;
+}
+
+#contact li a{
+    color: white;
+}
+
+#contact a:hover{
+    color: dodgerblue;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#post1 p{
+   margin-left: -400px;
+   padding-top: 105px;
+   
+}
+
+#post2 p{
+    margin-left: -180px;
+    margin-top: -36px;
+}
+
+#mission{
+    margin-left: -10px;
+}
+#mission p{
+        background-color: #F30026;
+        color: white;
+
+}
+#mission h2{
+    color: white;
+}
+
