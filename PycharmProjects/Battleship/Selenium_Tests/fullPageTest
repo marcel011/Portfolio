@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:5000/" />
+<title>playthrough</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">playthrough</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=game_name</td>
+	<td>testroom</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button.home_submit.pure-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=userName</td>
+	<td>Magic man</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.nickname_submit.pure-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p111</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p121</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p131</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p141</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p151</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p113</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p123</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p133</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p143</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p115</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p125</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p135</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p117</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p127</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p137</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p119</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p129</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p1m11</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p1m21</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p1m31</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p1m41</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p1m51</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p1m13</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p1m23</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p1m33</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p1m43</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p1m15</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p1m25</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p1m35</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p1m45</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p1m17</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p1m27</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p1m37</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p1m19</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=message</td>
+	<td>testing chat!</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.msg_submit.pure-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=p1m29</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>id=p129</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>id=p137</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>id=p135</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>id=p143</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>id=p151</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=ul.text</td>
+	<td>Magic man: testing chat!</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=game_info</td>
+	<td>Player 2: Pick 5 Spaces for your Carrier</td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>id=footer_content</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>id=board_left</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>id=board_right</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>id=board_inner_wrapper</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>css=#boardfeildsetp1moves &gt; #board_inner_wrapper</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=p1c</td>
+	<td>Good</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=p1b</td>
+	<td>Good</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=p1s</td>
+	<td>Good</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=p1d</td>
+	<td>Good</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=p1p</td>
+	<td>Good</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=p2c</td>
+	<td>Good</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=p2b</td>
+	<td>Good</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=p2s</td>
+	<td>Good</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=p2d</td>
+	<td>Good</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=p2p</td>
+	<td>Good</td>
+</tr>
+</tbody></table>
+</body>
+</html>

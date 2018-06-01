@@ -1,0 +1,30 @@
+{% extends 'base.html'%}
+{% block content_mid %}
+<main class="indexwindow" >
+    <div id="card_homepage" class="card_homepage">
+        <div id="card_hp_content" class="card_hp_content">
+            <div id="indexInfo">
+                <h1>Room Already Has 2 Players!</h1>
+                <div id="roomlistInfo">
+                     <ul>
+                    {% for room, key in games.items() %}
+                        {% for _key, num in num_players.items() %}
+                            {% if key == _key %}
+                               <h4><ul><a href="/{{ key }}">Join Room {{ room }}</a></ul></h4>
+                            {% endif %}
+                        {% endfor %}
+                    {% endfor %}
+                    </ul>
+                </div>
+                <fieldset>
+                    <form class="new_chat pure-form pure-form-stacked" action="/new-chat" method="POST">
+                        <label>Enter Room Name</label>
+                        <input type="text" name="chat_topic" autocomplete="off" placeholder="Enter Room Name">
+                        <button type='submit' class="home_submit pure-button">Next</button>
+                    </form>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock content_mid %}

@@ -1,0 +1,292 @@
+
+html, body {
+	margin:0;
+	padding:0;
+	height:100%;
+    font-family: 'Oswald', sans-serif;
+    background: url("/static/img/evee_bg.png");
+    background-repeat: repeat;
+}
+
+#game_info {
+    background: #FFFFFF;
+    border-bottom: black;
+    border-top: black;
+}
+
+#ship_s_left, #ship_s_right {
+    background: #FFFFFF;
+    border: blue;
+}
+
+ul {
+    background: #FFFFFF;
+}
+
+#card_theMessages #card_theList {
+    background: #FFFFFF;
+}
+
+@keyframes our-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    20% {
+        transform: rotate(45deg)
+    }
+    40% {
+        transform: rotate(5deg);
+    }
+    65% {
+        transform: rotate(30deg);
+    }
+    80% {
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3em;
+}
+h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1em;
+}
+h4{
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.9em;
+}
+h5{
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.7em;
+}
+h6{
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.5em;
+}
+
+@keyframes our-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(45deg)
+    }
+    100% {
+        transform: rotate(-90deg);
+    }
+}
+
+.star[data-state="pending"] {
+    animation: our-spin 2s infinite linear;
+}
+
+#game_info{
+    width: 100%;
+    float: left;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    color: #ff1100;
+}
+
+/********************************************
+    "Ship Status" Styling
+*********************************************/
+#ship_status{
+    width: 100%;
+}
+#ship_s_left{
+    float: left;
+    width: 50%;
+}
+#ship_s_right{
+    float: right;
+    top: 0;
+    width: 50%;
+}
+#ship_s_left_content, #ship_s_right_content{
+    padding: 1em;
+    text-align: center;
+}
+.statusdiv{
+    display: inline-block;
+    color: #00b70a;
+}
+.statusdiv2{
+    display: inline-block;
+    color: #ff1100;
+}
+
+#curr_pid{
+    display: inline-block;
+}
+
+
+#board {
+    border-collapse: collapse;
+    max-width: 100%;
+    background: #ffffff;
+    padding: 0;
+}
+#board .cell {
+    font-size: 1.5em;
+    width: 1.7em;
+    height: 1.7em;
+    border: solid 1px #000000;
+    cursor: pointer;
+    text-align: center;
+}
+
+@media screen and (min-width: 48em) {
+
+    /***********************
+         Board Layout
+    ************************/
+    #board_wrapper_p1, #board_wrapper_p2{
+        width: 100%;
+        overflow: auto;
+        padding-bottom: 3em;
+    }
+    #board_left{
+        width: 40%;
+        float: left;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+        background: url("/static/img/grass.png");
+        background-repeat: repeat;
+
+    }
+    #board_right{
+        width: 40%;
+        float: right;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+        background: url("/static/img/grass.png");
+        background-repeat: repeat;
+    }
+    /***********************
+      General Board Styles
+    ************************/
+    #board {
+        border-collapse: collapse;
+        max-width: 100%;
+        background: url("/static/img/ocean2.jpg");
+        background-repeat: repeat;
+        padding: 0;
+        margin-top: 0.5em;
+    }
+    #board .cell {
+        font-size: 40px;
+        width: 40px;
+        height: 40px;
+        border: solid 2px blue;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    /*******************************************************
+        Footer Styling
+    *******************************************************/
+    #footer_content{
+        text-align: center;
+        font-size: 1em;
+    }
+}
+
+/************************************
+    other_player's board
+*************************************/
+.hit{
+    background: url("/static/img/other_player/hit.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: our-spin 1s linear;
+}
+.miss {
+    background: url("/static/img/other_player/miss.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/************************************
+    Good ships
+*************************************/
+.carrier{
+    background: url("/static/img/good_ships/car_good.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.battleship{
+    background: url("/static/img/good_ships/bat_good.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.submarine{
+    background: url("/static/img/good_ships/sub_good.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.destroyer{
+    background: url("/static/img/good_ships/des_good.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.patrol_boat{
+    background: url("/static/img/good_ships/pat_good.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/************************************
+    SUNKEN ships
+*************************************/
+.carrier_s{
+    background: url("/static/img/hit/car_hit.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: our-spin 1s linear;
+}
+.battleship_s{
+    background: url("/static/img/hit/bat_hit.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: our-spin 1s linear;
+}
+.submarine_s{
+    background: url("/static/img/hit/sub_hit.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: our-spin 1s linear;
+}
+.destroyer_s{
+    background: url("/static/img/hit/des_hit.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: our-spin 1s linear;
+}
+.patrol_boat_s{
+    background: url("/static/img/hit/pat_hit.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: our-spin 1s linear;
+}

@@ -1,0 +1,29 @@
+{% extends 'base.html'%}
+{%  block content_top %}
+{% endblock content_top %}
+{% block content_mid %}
+<main class="indexwindow" >
+
+    <h1>Let's Play Battleship!</h1>
+
+        <!--Show current rooms-->
+        {% for room, key in games.items() %}
+            {% for _key, num in num_players.items() %}
+                {% if key == _key %}
+                   <h4><ul><a href="/{{ key }}">Join Room {{ room }}</a></ul></h4>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+
+    <fieldset>
+        <form class="new_chat pure-form pure-form-stacked" action="/new-game" method="POST">
+            <label>Enter Room Name:</label>
+            <input type="text" name="game_name" autocomplete="off" placeholder="Enter Room Name">
+            <button type='submit' class="home_submit pure-button">Submit</button>
+        </form>
+    </fieldset>
+
+</main>
+{% endblock content_mid %}
+{% block content_bottom %}
+{% endblock content_bottom %}
